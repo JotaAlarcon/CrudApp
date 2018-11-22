@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class ConexionDBHelper extends SQLiteOpenHelper {
 
-    String sql = "CREATE TABLE USUARIO (ID INTEGER PRIMARY KEY, NOMBRE TEXT, APELLIDO TEXT)";
+    String sql = "CREATE TABLE USUARIO (ID INTEGER PRIMARY KEY, NOMBRE TEXT, APELLIDO TEXT, MAIL TEXT, PASSWORD TEXT)";
     public ConexionDBHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }
