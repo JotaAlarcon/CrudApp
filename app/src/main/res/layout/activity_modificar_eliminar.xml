@@ -6,11 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/fondo1"
-    tools:context=".MainActivity">
+    tools:context=".ModificarEliminar">
 
     <TextView
-        android:id="@+id/txtnombre"
+        android:id="@+id/txtnombre_moel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -19,7 +18,7 @@
         android:text="Nombre" />
 
     <EditText
-        android:id="@+id/innombre"
+        android:id="@+id/innombre_moel"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -27,7 +26,7 @@
         android:inputType="textPersonName"/>
 
     <TextView
-        android:id="@+id/txtapellido"
+        android:id="@+id/txtapellido_mopel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -36,24 +35,25 @@
         android:text="Apellido" />
 
     <EditText
-        android:id="@+id/inapellido"
+        android:id="@+id/inapellido_moel"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:hint="Apellido" />
 
     <Button
-        android:id="@+id/ingresar"
+        android:id="@+id/modificar"
         android:layout_marginTop="50dp"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Ingresar" />
+        android:text="Modificar" />
 
     <Button
-        android:id="@+id/mostrar"
+        android:id="@+id/eliminar"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Mostrar" />
+        android:text="Eliminar" />
+
 </android.widget.LinearLayout>
