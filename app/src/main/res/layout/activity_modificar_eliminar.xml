@@ -6,44 +6,74 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#9ad7d0"
     tools:context=".ModificarEliminar">
 
     <TextView
-        android:id="@+id/txtnombre_moel"
+        android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
         android:textColor="#013953"
-        android:text="Nombre" />
+        android:textSize="30dp"
+        android:text="MODIFICAR USUARIOS" />
 
     <EditText
         android:id="@+id/innombre_moel"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
         android:hint="Nombre"
         android:inputType="textPersonName"/>
 
-    <TextView
-        android:id="@+id/txtapellido_mopel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:textColor="#013953"
-        android:text="Apellido" />
 
     <EditText
         android:id="@+id/inapellido_moel"
         android:layout_width="250dp"
+        android:layout_marginBottom="10dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Apellido" />
+        android:hint="Apellido"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/inmail_moel"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:hint="Mail"
+        android:textColor="#ffffff"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/inpass1_moel"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:hint="Password"
+        android:textColor="#ffffff"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/inpass2_moel"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:hint="Repetir Password"
+        android:textColor="#ffffff"
+        android:inputType="textPassword"/>
+
+
 
     <Button
         android:id="@+id/modificar"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
