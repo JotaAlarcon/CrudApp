@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".acercade"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6ca4a9"
+        android:gravity="center"
+        android:text="Acerca de"
+        android:textColor="#e8ffff"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="76dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#6ca4a9"
+        android:text="Desarrollado por:
+Jhonnatan Alarcón
+Paulo Roa
+Paulina Uribe"
+        android:textSize="30dp"
+        android:textColor="#e8ffff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="131dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
