@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Listado" />
-        <activity android:name=".ModificarEliminar"></activity>
+        <activity android:name=".ModificarEliminar" />
+        <activity android:name=".ServicioExterno"></activity>
     </application>
 
 </manifest>
